@@ -1,8 +1,6 @@
-+++
-title = ""
-date = {{ .Date }}
-author = ""
-keywords = ["", ""]
-cover = ""
-summary = ""
-+++
+---
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+draft: true
+---
+
