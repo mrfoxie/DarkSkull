@@ -1,3 +1,36 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = ""
+languageCode = "en-gb"
+title = "DarkSkull"
+theme = "github-style"
+googleAnalytics = ""
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "DarkSkull"
+  description = ""
+  github = ""
+  facebook = ""
+  twitter = ""
+  linkedin = ""
+  instagram = ""
+  tumblr = ""
+  email = ""
+  url = "https://anchor.fm/darkskull"
+  keywords = "podcast, story"
+  rss = true
+  lastmod = true
+  favicon = "/images/logo.jpg"
+  location = "Podcast"
+  userStatusEmoji = "😀"
+
+  [[params.links]]
+    title = "Link"
+    href = "https://anchor.fm/darkskull"
+  [[params.links]]
+    title = "Link2"
+    href = "https://anchor.fm/darkskull"
+    icon = "/images/avatar.png"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
