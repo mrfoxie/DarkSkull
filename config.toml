@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "/"
 languageCode = "en-gb"
 title = "DarkSkull"
 theme = "github-style"
